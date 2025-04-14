@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <div id="grid-container"></div>
+  <nav class="nav"> 
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="display-border section-center hero-center">
+      <article class="info-text hero-info">
+        <div class="underline"></div>
+        <h2>Danielius Grebliauskas</h2>
+        <h4>CSSE Graduate</h4>
+        <ul class="social-icons">
+          <li>
+            <a href="https://github.com/Dagr02" target="_blank">
+              <i class="fa fa-github" style="font-size:36px"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/danieliusgr02/" target="_blank">
+              <i class="fa fa-linkedin" style="font-size:36px"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:danieliusgrebliauskas@gmail.com" target="_blank">
+              <i class="fa fa-envelope" style="font-size:36px"></i>
+            </a>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </header>
+
+  <section id="about" class="section-about">
+    <div class="display-border section-center about-center">
+      <article class="info-text about-info">
+        <div class="about-title">
+          <div class="underline"></div>
+          <h2>About</h2>
+        </div>
+        <p>Hello, I am Danielius. I am a CSSE Graduate from Maynooth University with 2:1 Hons.</p>
+        <p>I love technology and its never-ending need for problem solving. I enjoy learning about new things and different ways of approaching problems.</p>
+        <p>I've completed a 7 month internship at Yahoo, working with Java Spring to develop REST APis and back-end services.</p>
+        <p>My other hobbies include video games, esports, and hiking.</p>
+      </article>
+    </div>
+  </section>
+  <section id="experience" class="section-experience">
+    <div class="display-border section-center experience-center info-text">
+        <div class="experience-content">
+            <div class="experience-title">
+                <div class="underline"></div>
+                <h2>Experience</h2>
+            </div>
+            <article class="experience-item">
+                <h4>Feb 2023 - Aug 2023 • 7 Months • Internship</h4>
+                <ul>
+                    <li> Worked on and helped develop components necessary for ingesting articles and related articles from providers.</li>
+                    <li> Created a house-keeping job to validate articles in our database using connection pooling</li>
+                    <li> Created Rest APi's to allow monitoring of and reporting of articles.</li>
+                    <li> Created python scripts to verify providers, verify DB items and manipulate the DB.</li>
+                </ul>
+                <ul class="skills">
+                    <li> <img class="skill-icon skill-1" src="./images/python.svg"></img></li>
+                    <li> <img class="skill-icon skill-2" src="./images/java.svg"></img></li>
+                    <li> <img class="skill-icon skill-3" src="./images/spring.svg"></img></li>
+                </ul>
+            </article>
+        </div>
+    </div>
+  </section>
+  <section id="projects" class="section-projects">
+    <div class="display-border section-center projects-center info-text">
+        <div class="projects-content">
+            <div class="projects-title">
+                <div class="underline"></div>
+                <h2>Projects</h2>
+            </div>
+            <article class="projects-item">
+                <h4>Sept 2024 - Oct 2024 • Final Year Project</h4>
+                <ul>
+                    <li> Developed a document assessment tool designed to streamline the review process of academic proposals and publications.</li>
+                    <li> The project aimed at identifying potential "dual-use" content that might warrant export control or other restrictions.</li>
+                    <li> Parsed and extracted relevant information from the "dual-use" legislative document, significantly reducing document size using BeautifulSoup html-parser.</li>
+                    <li> Used Doc2Vec python library to measure similarities between academic abstracts and the extracted data to be assed by local LLMs.</li>
+                    <li> Explored the capabilities of many local large language models, such as: Minstral, Llama2, gpt4all. As well as, the OpenAI chatgpt-4</li>
+                </ul>
+                <ul class="skills">
+                    <li> <img class="skill-icon skill-1" src="./images/python.svg"></img></li>
+                    <li> <img class="skill-icon skill-2" src="./images/openai.svg"></img></li>
+                </ul>
+            </article>
+        </div>
+    </div>
+  </section>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
