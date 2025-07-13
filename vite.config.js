@@ -6,7 +6,6 @@ import path from "path"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "https://dagr02.github.io/dagr02-portfolio/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
