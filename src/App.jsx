@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Toaster />
-      <BrowserRouter>
+      <BrowserRouter basename='/dagr02-portfolio'>
         <Routes>
           <Route index element={<Home />}/>
           <Route path='*' element={<NotFound />} />
